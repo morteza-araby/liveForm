@@ -8,16 +8,16 @@ There are two methods for getting started with this repo.
 Checkout this repo, install depdencies, then start the gulp process with the following:
 
 ```
-	> git clone https://github.com/morteza-araby/live-form.git
-	> cd semantic-ui-react
+	> git clone https://github.com/morteza-araby/liveForm.git
+	> cd server
 	> npm install
-	> npm start
+	> node index.js
 ```
 
 ####Not Familiar with Git?#####
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
+Click download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
 
-```
+``` cd server
 	> npm install
-	> npm start
+	> node index.js
 ```
