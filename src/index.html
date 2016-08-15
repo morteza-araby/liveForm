@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="styles.css">
+	<title>Live Form</title>
+</head>
+<body>
+<form>
+    <label>Name
+        <input name='firstName' />
+    </label>
+    <label>Last Name
+        <input name='lastName' />
+    </label>
+    <label>Age
+        <input name='age' />
+    </label>
+<br />
+<br />
+
+<span> Gender </span><br>
+<input type="radio" name="gender" value="male" checked> Male<br>
+<input type="radio" name="gender" value="female"> Female<br>
+<input type="radio" name="gender" value="other"> Other<br>
+<br />
+<br />
+<span>Car</span><br>
+  <input type="radio" name="vehicle" value="BMW" checked> BMW<br>
+  <input type="radio" name="vehicle" value="Ford"> Ford<br>
+  <input type="radio" name="vehicle" value="Mercedes"> Mecedes<br>
+
+
+<br/>
+<br/>
+<input type="checkbox" name="vehicle" value="Bike">I have a bike<br>
+<input type="checkbox" name="vehicle" value="Car">I have a car
+<br/>
+<br/>
+
+<input type="date" name="date">
+<br />
+<br />
+
+<input type="number" name="number">
+<br />
+<br />
+<textarea name="textarea"></textarea>
+<br />
+<br />
+
+</form>
+<div id='result'></div>
+<script src="libs/socket.io.js"></script>
+<script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
